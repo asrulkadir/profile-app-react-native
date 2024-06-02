@@ -18,18 +18,18 @@ export default function TabLayout() {
         name="index"
         options={{
           title: 'Home',
-          tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon name={focused ? 'home' : 'home-outline'} color={color} />
-          ),
+          // tabBarIcon: ({ color, focused }) => (
+          //   <TabBarIcon name={focused ? 'home' : 'home-outline'} color={color} />
+          // ),
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="biodata"
         options={{
-          title: 'Explore',
-          tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon name={focused ? 'code-slash' : 'code-slash-outline'} color={color} />
-          ),
+          title: 'Contact',
+          // tabBarIcon: ({ color, focused }) => (
+          //   <TabBarIcon name={focused ? 'images' : 'images-outline'} color={color} />
+          // ),
         }}
       />
     </Tabs>
